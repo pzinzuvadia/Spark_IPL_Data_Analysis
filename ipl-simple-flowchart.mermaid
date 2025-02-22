@@ -1,0 +1,13 @@
+flowchart TD
+    A[Data Source: AWS S3] --> B[Schema Definition]
+    B --> C[Data Loading]
+    C --> D[Data Cleaning & Transformation]
+    D --> E[Data Analysis with SQL]
+    E --> F[Visualization with Matplotlib/Seaborn]
+    
+    style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style B fill:#eeeeee,stroke:#333,stroke-width:2px
+    style C fill:#ddddff,stroke:#333,stroke-width:2px
+    style D fill:#d5f9e5,stroke:#333,stroke-width:2px
+    style E fill:#ffd580,stroke:#333,stroke-width:2px
+    style F fill:#d5e5f9,stroke:#333,stroke-width:2px
